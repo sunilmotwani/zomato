@@ -1,0 +1,264 @@
+/* Common Elements  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+.servicesh1{
+    font-family: 'Lobster', cursive;
+    color: brown;
+    text-align: center;
+    font-size: 45px;
+}
+
+.hr1{
+    border: 2px;
+    border-color: red;
+    border-style: solid;
+    margin: 0;
+    opacity: 1;
+}
+
+.maintitle{
+    font-family: 'Lobster', cursive;
+    color: white;
+    font-size: 110px;
+    text-align: center;
+}
+
+.subtitle1{
+    font-family: 'Lobster', cursive;
+    color: rgb(250, 245, 250);
+    font-size: 35px;
+    text-align: center;
+}
+
+.subtitle2{
+    font-family: 'Lobster', cursive;
+    color: rgb(253, 252, 253);
+    font-size: 45px;
+    text-align: center;
+}
+
+
+
+/* Navigation Bar CSS Starts  */
+
+#navbar{
+    display: flex;
+    background-color: rgb(116, 123, 118);
+    height: 80px;
+    align-items: center;
+    font-family: 'Abril Fatface', cursive;
+    position: sticky;
+    top: 0px;
+}
+
+/* Logo  */
+
+#logo{
+    width: 10%;   
+}
+
+#logoimg{
+    height: 55px;
+    margin: 12px 40px;
+    border-radius: 22px;
+}
+
+/* Navigation Links  */
+
+#navlinks{
+    width: 70%;
+ 
+  
+    
+}
+
+#links{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.linkitem{
+
+}
+
+.linka{
+    padding: 10px;
+    margin: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 22px;
+
+}
+
+.linka:hover{
+    background-color: azure;
+    color: rgb(136, 6, 6);
+    transition: 1s;
+}
+
+.currentpage{
+    border: 2px solid white;
+    border-radius: 20px;
+    
+}
+
+/* Social Media Links  */
+
+#socialmedia{
+    margin-left: 80px;
+  
+}
+
+#socialmedia img{
+    border-radius: 10px;
+}
+
+
+#socialmedia img:hover{
+    transform: scale(1.2);
+    box-shadow: 0px 0px 25px 0px rgb(214, 239, 247);
+    transition: 1s;
+}
+
+/* Navigation Bar CSS Ends  */
+
+/* Home Content CSS Starts Here  */
+
+#homecontent{
+    height: 700px;
+    background-image: url(bulk.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+
+
+/* Home Content CSS Ends Here  */
+
+/* Facilities CSS Starts  */
+
+#facilities{
+    display: flex;
+    justify-content:space-around;
+    height: 300px;
+    /* align-items: center; */
+    background-color: rgb(145, 126, 126);
+}
+
+.facilityclass{
+  text-align: center;
+  margin-top: 25px;
+}
+
+#facilities img{
+    height: 150px; 
+}
+
+.facilitypara1{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 22px;
+    font-weight:bolder;
+  
+}
+
+.facilitypara2{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+  
+}
+
+/* Facilities CSS Ends  */
+
+/* Footer CSS  */
+
+#footer{
+    display: flex;
+    background-color: rgb(116, 123, 118);
+    height: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 60px;
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+ }
+
+ /* Services CSS Starts Here  */
+
+    #servicescontent{
+        background-color: bisque;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+
+    .servicesbox{
+        width: 700px;
+        height: 510px;
+        border: 2px solid brown;
+        border-radius: 25px;
+        margin: 10px;
+        padding: 10px;
+    }
+
+
+    .servicesbox img{
+        border-radius: 25px;
+    }
+
+
+    .servicesbox h5{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight:bolder;
+    }    
+
+    .servicesbox p{
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        font-size: 25px;
+      
+    }  
+
+ /* Services CSS Ends Here  */
+
+/* Contact Us CSS Starts Here  */
+
+#contactuscontent{
+    height: 450px;
+    background-image: url(contactfood.jpg);
+    background-position: bottom;
+    
+}
+
+
+#contactuscontent h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(242, 234, 234);
+    text-align: center;
+    font-size: 65px;
+    line-height: 200px;
+}
+
+
+
+/* Contact Us CSS Ends Here  */
+
